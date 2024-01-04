@@ -15,10 +15,11 @@ pipeline_tag: text-generation
 inference: true
 ---
 
-<h1 align="center">
-  <br>
+<br>
+<p align="center">
   <img src="assets/infimm-logo.webp" alt="InfiMM-logo" width="400"></a>
-</h1>
+</p>
+<br>
 
 # InfiMM
 
