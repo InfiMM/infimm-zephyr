@@ -1,0 +1,66 @@
+{
+    "_name_or_path": "./",
+    "architectures": [
+        "InfiMMZephyrModel"
+    ],
+    "auto_map": {
+        "AutoConfig": "configuration_infimm_zephyr.InfiMMConfig",
+        "AutoModelForCausalLM": "modeling_infimm_zephyr.InfiMMZephyrModel"
+    },
+    "model_type": "infimm-zephyr",
+    "seq_length": 1024,
+    "tokenizer_type": "LlamaTokenizer",
+    "torch_dtype": "bfloat16",
+    "transformers_version": "4.35.2",
+    "use_cache": true,
+    "use_flash_attn": false,
+    "cross_attn_every_n_layers": 2,
+    "use_grad_checkpoint": false,
+    "freeze_llm": true,
+    "image_token_id": 32001,
+    "eoc_token_id": 32000,
+    "visual": {
+        "image_size": 336,
+        "layers": 24,
+        "width": 1024,
+        "head_width": 64,
+        "patch_size": 14,
+        "mlp_ratio": 2.6667,
+        "eva_model_name": "eva-clip-l-14-336",
+        "drop_path_rate": 0.0,
+        "xattn": false,
+        "fusedLN": true,
+        "rope": true,
+        "pt_hw_seq_len": 16,
+        "intp_freq": true,
+        "naiveswiglu": true,
+        "subln": true,
+        "embed_dim": 768
+    },
+    "language": {
+        "_name_or_path": "HuggingFaceH4/zephyr-7b-beta",
+        "architectures": [
+            "MistralForCausalLM"
+        ],
+        "bos_token_id": 1,
+        "eos_token_id": 2,
+        "hidden_act": "silu",
+        "hidden_size": 4096,
+        "initializer_range": 0.02,
+        "intermediate_size": 14336,
+        "max_position_embeddings": 32768,
+        "model_type": "mistral",
+        "num_attention_heads": 32,
+        "num_hidden_layers": 32,
+        "num_key_value_heads": 8,
+        "pad_token_id": 2,
+        "rms_norm_eps": 1e-05,
+        "rope_theta": 10000.0,
+        "sliding_window": 4096,
+        "tie_word_embeddings": false,
+        "torch_dtype": "bfloat16",
+        "transformers_version": "4.35.0",
+        "use_cache": true,
+        "vocab_size": 32002
+    }
+  }

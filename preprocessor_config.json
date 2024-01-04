@@ -1,0 +1,7 @@
+{
+    "_name_or_path": "./",
+    "auto_map": {
+        "AutoProcessor": "processing_infimm_zephyr.InfiMMZephyrProcessor"
+    },
+    "image_size": 336
+}
