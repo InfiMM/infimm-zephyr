@@ -17,7 +17,7 @@ inference: true
 
 <h1 align="center">
   <br>
-  <img src="assets/infimm-logo.webp" alt="Markdownify" width="200"></a>
+  <img src="assets/infimm-logo.webp" alt="InfiMM-logo" width="400"></a>
 </h1>
 
 # InfiMM
