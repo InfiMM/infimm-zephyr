@@ -242,6 +242,7 @@ We select checkpoint after 1 epoch instruction fine-tuning.
 @misc{InfiMM,
       title={InfiMM: Advancing Multimodal Understanding from Flamingo's Legacy through Diverse LLM Integration},
       author={InfiMM Team},
+      url={https://huggingface.co/Infi-MM/},
       year={2024}
 }
 ```
