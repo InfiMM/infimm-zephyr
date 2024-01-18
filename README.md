@@ -238,11 +238,13 @@ We select checkpoint after 1 epoch instruction fine-tuning.
 
 ## Citation
 
-@misc{infimm-v1,
-title={InfiMM: },
-author={InfiMM Team},
-year={2024}
+```latex
+@misc{InfiMM,
+      title={InfiMM: Advancing Multimodal Understanding from Flamingo's Legacy through Diverse LLM Integration},
+      author={InfiMM Team},
+      year={2024}
 }
+```
 
 ## License
 
