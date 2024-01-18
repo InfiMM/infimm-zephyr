@@ -123,7 +123,7 @@ The model is trained on a mixture of image-text pairs and unstructured multimoda
 | [LAION](https://huggingface.co/datasets/laion/laion2B-en)        | Image-Text Pairs                      | -                          | 115M                       | 115M              | 1      |
 | [COYO](https://github.com/kakaobrain/coyo-dataset)               | Image-Text Pairs                      | -                          | 238M                       | 238M              | 1      |
 | [LAION-COCO](https://laion.ai/blog/laion-coco/)                  | Image-Text Pairs                      | -                          | 140M                       | 140M              | 1      |
-| [PMD\*](https://huggingface.co/datasets/facebook/pmd)            | Image-Text Pairs                      | -                          | 20M                        | 1                 |
+| [PMD\*](https://huggingface.co/datasets/facebook/pmd)            | Image-Text Pairs                      | -                          | 20M                        | 20M               | 1      |
 
 \*PMD is only used in models with 13B LLMs, not the 7B Zephyr model.
 
