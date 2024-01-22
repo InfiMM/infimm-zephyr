@@ -73,7 +73,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoProcessor
 
 
-processor = AutoProcessor.from_pretrained("InfiMM/infimm-zephyr", trust_remote_code=True)
+processor = AutoProcessor.from_pretrained("Infi-MM/infimm-zephyr", trust_remote_code=True)
 
 prompts = [
     {
