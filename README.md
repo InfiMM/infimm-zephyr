@@ -88,7 +88,7 @@ inputs = processor(prompts)
 
 # use bf16
 model = AutoModelForCausalLM.from_pretrained(
-    "InfiMM/infimm-zephyr",
+    "Infi-MM/infimm-zephyr",
     local_files_only=True,
     torch_dtype=torch.bfloat16,
     trust_remote_code=True,
