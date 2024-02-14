@@ -236,17 +236,6 @@ We select checkpoint after 1 epoch instruction fine-tuning.
 
 </details>
 
-## Citation
-
-```latex
-@misc{InfiMM,
-      title={InfiMM: Advancing Multimodal Understanding from Flamingo's Legacy through Diverse LLM Integration},
-      author={InfiMM Team},
-      url={https://huggingface.co/Infi-MM/},
-      year={2024}
-}
-```
-
 ## License
 
 <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.en">
@@ -259,6 +248,3 @@ The copyright of the images belongs to the original authors.
 
 See [LICENSE](LICENSE) for more information.
 
-## Contact Us
-
-Please feel free to contact us via email [infimmbytedance@gmail.com](infimmbytedance@gmail.com) if you have any questions.
