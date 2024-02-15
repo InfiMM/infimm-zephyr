@@ -1,20 +1,3 @@
----
-language: en
-tags:
-  - multimodal
-  - text
-  - image
-  - image-to-text
-license: mit
-datasets:
-  - HuggingFaceM4/OBELICS
-  - laion/laion2B-en
-  - coyo-700m
-  - mmc4
-pipeline_tag: text-generation
-inference: true
----
-
 <br>
 <p align="center">
   <img src="assets/infimm-logo.webp" alt="InfiMM-logo" width="400"></a>
@@ -33,7 +16,6 @@ Please note that InfiMM is currently in beta stage and we are continuously worki
 
 ## Model Details
 
-- **Developed by**: Institute of Automation, Chinese Academy of Sciences and ByteDance
 - **Model Type**: Visual Language Model (VLM)
 - **Language**: English
 - **LLMs**: [Zephyr](https://huggingface.co/HuggingFaceH4/zephyr-7b-beta), [LLaMA2-13B](https://ai.meta.com/llama/), [Vicuna-13B](https://huggingface.co/lmsys/vicuna-13b-v1.5)
